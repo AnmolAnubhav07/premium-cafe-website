@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F8F6F2;
+  color: #2D2D2D;
+}
+
+body.dark {
+  background-color: #1a1a1a;
+  color: #F8F6F2;
+}
+
+.dark .bg-neutral-cream {
+  background-color: #2d2d2d;
+}
+
+.dark .text-neutral-dark {
+  color: #F8F6F2;
+}
+
+.dark .bg-white {
+  background-color: #333;
+}
+
+.dark .border-gray-200 {
+  border-color: #444;
+}
