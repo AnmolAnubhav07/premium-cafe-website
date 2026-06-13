@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion, useScroll, useTransform, useInView } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import { 
   Coffee, Utensils, MapPin, Star, Mail, Instagram, 
   Facebook, Twitter, ChevronDown, Check, ArrowRight,
@@ -42,7 +42,6 @@ const Home: React.FC = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [newsletterSubmitted, setNewsletterSubmitted] = useState(false);
-  const [contactSubmitted, setContactSubmitted] = useState(false);
 
   return (
     <div>
